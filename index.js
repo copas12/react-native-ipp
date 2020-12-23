@@ -10,6 +10,7 @@ import enums from './lib/enums';
 import tags from './lib/tags';
 import statusCodes from './lib/status-codes';
 import {Buffer} from 'buffer';
+import { generateZPL } from "./lib/zpl";
 
 export {
   parse,
@@ -22,5 +23,6 @@ export {
   enums,
   tags,
 	statusCodes,
-	Buffer
+  Buffer,
+  generateZPL
 };
