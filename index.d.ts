@@ -16,6 +16,7 @@ interface ZPLConfig {
 declare const _default: {
   Printer: (printerUrl: string, options: any) => any;
   generateZPL: (data: OrderData, config: ZPLConfig) => string;
+  getPrinters: (ip: string) => string[];
 };
 
 export default _default;
