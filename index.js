@@ -12,7 +12,7 @@ import { Buffer } from "buffer";
 import { generateZPL } from "./lib/zpl";
 import { getPrinters } from "./lib/printer-list";
 
-export {
+export default {
   parse,
   serialize,
   request,
