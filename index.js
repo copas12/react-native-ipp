@@ -9,7 +9,11 @@ import enums from "./lib/enums";
 import tags from "./lib/tags";
 import statusCodes from "./lib/status-codes";
 import { Buffer } from "buffer";
-import { generateZPL } from "./lib/zpl";
+import {
+  generateZPL,
+  generateLabelArray,
+  convertTextArrayToZPL,
+} from "./lib/zpl";
 import { getPrinters } from "./lib/printer-list";
 
 export default {
@@ -25,5 +29,7 @@ export default {
   statusCodes,
   Buffer,
   generateZPL,
-  getPrinters
+  getPrinters,
+  generateLabelArray,
+  convertTextArrayToZPL,
 };
